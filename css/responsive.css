@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width: 960px) {
+
+.utubeVdo{ width:100%; }
+.utubeVdoBtn{ width:80%; height:auto; line-height:30px; margin:5% 10%; font-size:120%; }
+
+
+.btnOrangeNewBig{ width:100%; margin:0%; font-size:100%; }	
+.subscriptionInputDiv{ margin:2% 5%;  }	
+.subscribeBtnOrange{  margin:3% 5% 5% 5%; }
+.subscriptionBarTitle{ height:auto; line-height:none; }	
+.subscriptionTxtDiv{ height:auto; line-height:25px; margin-top:15px; }
+
+.header{ width:100%; }
+.headerLinksContainer{ height:auto; }
+.headerLinksDiv{ width:90%; height:auto; margin:0% 5%; text-align:center; font-size:70%; }
+.headerLogo{ padding-left:2%; }
+.bodyContentDiv{ width:90%; margin:0% 5%; }
+.homeBannerDiv{ width:100%; height:auto; }
+.homeBannerLeftDiv{ width:100%; height:auto; text-align:center; }
+.homeBannerRightDiv{ width:100%; height:auto; text-align:center; }
+.contentPanel{ width:90%; margin:0% 5%; }
+.featuresIconsContainer{ width:100%; }
+
+.SubscribersTitle{ width:100%; margin-bottom:3%; }
+.subscribersLogoContainer{ width:100%; }
+.subscribersLogo{ width:20%; height:auto; margin:0% 2.5%; }
+.subscribersLogo img{ max-width:120%; height:auto; }
+
+.footerMenuDiv{ width:100%; }
+.quickLinksBox{ width:50%; margin:0%; }
+.quickLinkTitle{ width:100%; height:auto; }
+.footerLinksCommonDiv{ width:auto; height:auto; }
+.footerCopyrightDiv{ width:100%; margin:0%; height:auto; }
+.subscribersBannerDiv{ width:100%; min-height:auto; height:auto; padding-bottom:20px; margin-top:20px; }
+
+.signInFooterDiv{ width:90%; height:auto; line-height:30px; margin:0% 5%; }
+
+.signInCommonInputOuter{ width:70%; margin:0% 15%; }
+.CommonInputLabel{ width:100%; line-height:20px; }
+.CommonInput{ width:100%; }
+.CommonTextAreaInput{ width:100%; }
+.signInTitleDiv{ height:auto; line-height:25px; margin-bottom:5%; }
+
+.staticCommonBannerDiv{ width:100%; }
+
+.signInValidationDiv{ width:100%; margin:2% 0%; }
+
+.signInStepsContentDiv{ width:90%; margin:5%; }
+
+.signInStepsLabelDiv{ width:25%; }
+.signInStepsValueDiv{ width:75%; }
+
+.signInCommonContentsDiv{ width:100%; }
+
+.CommonInputOuter{ width:90%; margin:0 5%; }
+.staticContentHeading{ text-align:center; }
+
+.signInCommonSmallInputOuter{ width:70%; margin:0% 15%; }
+
+.CommonInputLabelSmall{ width:100%; margin-top:2%; }
+
+.signInInputMarginLeft{ margin-left:15% !important; }
+
+.urlAvailabilityInput{ margin-bottom:20px; }
+
+.popupInputsDiv{ width:90%; margin:1% 5%; }
+
+.popupContainerDiv{ width:90%; margin:0% 5%; }
+
+h1{ font-size:180%; }
+
+.pricingPeriodMenu{ width:100%; }
+
+.pricingMenuOuter{ width:90%; margin:5%; }
+
+.pricingMenuCommon{ width:100%; }
+ 
+.pricingPlanDiv{ width:100%; }
+
+.normalPlanStrip{ width:20%;  top:-70px; left:0%; }
+
+.basicPlanStrip{ width: 25%; top: -70px; left: 25%; }
+
+.standardPlanStrip{  width: 25%;top: -90px;left: 50%; }
+
+.advancedPlanStrip{ width: 25%; top: -70px;left: 75%; }
+
+.proPlanStrip{ width:20%; top:-70px; left:80%; }
+
+.planStripCommonHdr{ width:100%;  }
+.planStripTitleDiv{ width: 100%; margin-left: 0px; font-size: 75%; font-weight: bold; }
+.spclStripCommonHdr { width:100%; }
+.planStripPriceDiv{ width:100%; margin:5px 0px; font-size:100%; }
+.spclStripTitleDiv{ width: 100%; margin-left: 0px; font-size: 75%; }
+.spclStripPriceDiv{ width:100%; font-size:100%; }
+.caareersPosMenu{ width:100%; }
+
+.FAQsTitleDiv{ width:100%; }
+.FAQsSubTitleDiv{ width:100%; }
+.FAQsouterContainer{ width:100%; height:auto; margin:2% 0%;  }
+
+.pricingQueriesTitle{ width:100%; }
+
+.popularFeaturesTxtDiv{ height:auto; line-height:50px; font-size:120%; }
+.custCareNumberDiv{ padding:0px 25px !important; }
+
+.pgNew { position: absolute; top: 149px; width: 100%; margin:0px; overflow: auto; }
+.planFeaturesNewestStrip, .planFeaturesNewestSpecialStrip { width: 25%; }
+
+.planFeaturesStripPriceTxt { width:100%; word-wrap:break-word; margin:0px; font-size:small; line-height:25px; }
+.planBtnMarginLeft{ width:80%; font-size:100%; text-align:center; text-indent:0px; padding:0% 1% !important; }
+
+.planFeaturesStrip {width: 25%; top: -70px; left: 0%;}
+}
+
+@media (max-width: 768px) {
+
+.featuresIconDiv{ width:50%; margin:20px 0px; height:200px; }
+
+.quickInvoicingIcon, .manageBookingsIcon, .fuelMonitoringIcon, .trackCabIcon, .goPaperlessIcon, .cloudServerIcon, .realtimeAlertsIcon, .mobileAppIcon, .roleAccessIcon, .BIRIcon, .fleetMaintainanceIcon, .plugNPlayIcon, .driverMgmIcon, .serviceNTariffMgmIcon, .salesNMktIcon, .b2bMktIcon, .finAcMgmIcon, .vendorMgmIcon, .cmsMgmIcon{ margin-left:40%; margin-right:0%; }
+
+.btnGreen, .btnBlue{ width:90%; margin:5%; font-size:13px; padding:0px 10px; }
+.featuresBtnDiv{ width:100%; margin:2% 0%; height:auto; }
+
+.quickLinksBox{ width:50%; margin:2% 0%; }
+.copyrightLeft{ width:50%; text-align:center; height:auto; line-height:30px; }
+.copyrightRight{ width:50%; text-align:center; height:auto; line-height:30px; }
+
+.signInStepsLabelDiv{ width:35%; }
+.signInStepsValueDiv{ width:65%; }
+
+.signInURLAvailabilityTitle{ width:auto;  margin:0%; }
+
+.contactUsDiv1{ width: 80%; margin: 5% 10% 0% 10%; }
+.contactUsDiv2{ width: 80%; margin:0% 10%; }
+
+.popularFeaturesDiv{ width:90%; height:auto; margin:2% 5%;  }
+
+.popularFeaturesTxtDiv{ width:200px; height:40px; font-size:100%; text-align:left; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; }
+
+.popularFeatureContentDiv{ height:auto; }
+
+.DemoFeaturesDiv{ width:100%; height:auto; float:left; padding:0%;   }
+
+.DemoRequestFormDiv{ width:100%; height:auto; float:left; padding:2% 0%; background:#f0f0f0; border-radius:4px; margin:20px 0px; }
+
+.staticContentDiv{ width:100%; margin:0%; padding:0%; }
+
+.DemoFeatureIconTxt{ width:95%; margin:0% 5% 0% 0%; padding:0%; }
+
+.DemoInputOuter{ width:90%; margin:0% 5%; } 
+
+.btnSilver{ width:90%; margin:5%; font-size:13px; padding:0px 10px; }
+.profileComletionMenu{ min-width:100%; min-height:20px; float:left; margin:1% 0%; }
+.btnOrange {width: 80%; margin: 5% 10%; }
+}
+
+@media (max-width: 480px) {
+
+.featuresIconDiv{ width:100%; margin:10px 0px; }
+.quickInvoicingIcon, .manageBookingsIcon, .fuelMonitoringIcon, .trackCabIcon, .goPaperlessIcon, .cloudServerIcon, .realtimeAlertsIcon, .mobileAppIcon, .roleAccessIcon, .BIRIcon, .fleetMaintainanceIcon, .plugNPlayIcon{ margin-left:45%; margin-right:0%; }
+
+.signInStepsLabelDiv{ width:45%; font-size:90%; }
+.signInStepsValueDiv{ width:55%; font-size:90%; }
+
+.signInURLAvailabilityTitle{ width:100%;  margin:0%; }
+
+.headerLogo img{ max-width:160%; height:auto; }
+
+.forgotPassword{ width:100%; height:auto; line-height:20px; }
+
+}

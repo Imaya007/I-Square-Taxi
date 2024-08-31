@@ -1,0 +1,725 @@
+@charset "utf-8";
+/* CABSAAS */
+
+/*---- -FONT INCLUDION STARTS- ----*/
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway-light-webfont.eot');
+    src: url('../fonts/raleway-light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-light-webfont.html') format('woff2'),
+         url('../fonts/raleway-light-webfont-2.html') format('woff'),
+         url('../fonts/raleway-light-webfont-3.html') format('truetype'),
+         url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.eot');
+    src: url('../fonts/raleway-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular-webfont.html') format('woff2'),
+         url('../fonts/raleway-regular-webfont-2.html') format('woff'),
+         url('../fonts/raleway-regular-webfont-3.html') format('truetype'),
+         url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('../fonts/raleway-semibold-webfont.eot');
+    src: url('../fonts/raleway-semibold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-semibold-webfont.html') format('woff2'),
+         url('../fonts/raleway-semibold-webfont-2.html') format('woff'),
+         url('../fonts/raleway-semibold-webfont-3.html') format('truetype'),
+         url('../fonts/raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.html') format('woff'),
+         url('../fonts/opensans-regular-webfont-2.html') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---- -FONT INCLUDION ENDS- ----*/
+
+
+/*---- -BODY SECTION STARTS- ----*/
+
+img{ max-width:100%; height:auto; }
+
+body{  font-family: 'ralewaylight'; color:#505050; -webkit-font-smoothing:antialiased; }
+
+/*---- -BODY SECTION ENDS- ----*/
+
+/*---- -HEADING- ----*/
+
+h1{ font-family:'OpenSansRegular'!important; font-size:32px !important; color:#505050; font-smoothing: antialiased; -moz-font-smoothing: antialiased;   -webkit-font-smoothing: antialiased; }
+
+h2{ font-family: 'ralewayregular'!important;
+ font-size:34px !important; color:#505050 !important; font-smoothing: antialiased; -moz-font-smoothing: antialiased;   -webkit-font-smoothing: antialiased; padding:0px; margin:0px; }
+ 
+h3{ color:#0e9fce !important; font-family: 'ralewayregular'!important;
+ font-size:24px !important; } 
+h4{ line-height:25px !important;  }
+
+p{ font-family:'OpenSansRegular'; font-size:14px; color:#6c6c6c; line-height:22px; }
+
+/*---- -COLORS- ----*/
+
+.lightGrey{ color:#f1f1f1; }
+.blue{ color:#0e9fce; }
+.orange{ color:#f15a18; }
+.green{ color:#25B610; }
+
+/*---- -CONTAINER SECTION STARTS- ----*/
+
+.mainContainer{ width:100%; height:auto; position:relative; float:left; }
+
+.headerLinksContainer{ width:100%; height:30px; line-height:30px; float:left; background:#0e9fce; }
+
+.headerLinksDiv{ width:960px; line-height:30px; margin-left:auto; margin-right:auto; color:#d8d8d8; font-size:12px; text-align:right; font-family: 'OpenSansRegular';
+  }
+  
+.headerLinksDiv a{ text-decoration:none; color:#dcdcdc; }  
+.headerLinksDiv a:hover{ text-decoration:none; color:#fff; }  
+
+.headerWrap{ width:100%; height:85px; float:left; border-bottom:1px solid #d8d8d8;   }
+.header{ width:960px; min-height:70px; margin-left:auto; margin-right:auto;    }
+.headerLogo{ width:30%; height:85px; line-height:85px; float:left; }
+
+.btnGreen{ width:auto; height:40px; line-height:40px; float:left; cursor:pointer; padding:0px 30px; text-transform:uppercase;     font-family: 'ralewaysemibold';
+ font-size:16px;   color:#fff; text-align:center; background:#25b610; border-radius:2px; margin:5px 0px; font-smoothing: antialiased; -moz-font-smoothing: antialiased;   -webkit-font-smoothing: antialiased;  }
+
+.btnGreen:hover{ background:#1da509; }
+
+.btnOrange{ width:auto; height:40px; line-height:40px; float:left; cursor:pointer; padding:0px 30px !important; text-transform:uppercase; font-family:'ralewaysemibold'; font-size:16px; color:#fff; font-weight:bold;  text-align:center; background:#f15a18; border-radius:2px; margin:0px 0px 10px 0px; }
+
+.btnOrange:hover{ background:#e55314; }
+
+.btnOrange a:hover{ color:#fff !important; }
+
+.btnBlue{ width:auto; height:40px; line-height:40px; float:left; cursor:pointer; padding:0px 35px !important; text-transform:uppercase; font-family:'ralewaysemibold' !important; font-size:16px;  font-weight:bold; color:#fff; text-align:center; background:#36a9dd; border-radius:2px; margin:5px; }
+
+.btnBlue:hover{ background:#2291c3; }
+
+.btnSilver{ width:auto; height:40px; line-height:40px; float:left; cursor:pointer; padding:0px 20px; text-transform:uppercase; font-family:'ralewaysemibold' !important; font-size:16px; font-weight:bold; color:#505050; text-align:center; background:#f0f0f0; border-radius:2px; margin:5px 20px; }
+
+.btnSilver:hover{ background:#e2e2e2; }
+
+.bodyContentContainer{ width:100%; height:auto; float:left; }
+
+.bodyContentDiv{ width:960px; height:auto; margin-left:auto; margin-right:auto; }
+
+.homeBannerDiv{ width:960px; height:auto; float:left; margin:15px 0px; }
+
+.homeBannerLeftDiv{ width:100%; height:auto; float:left; }
+
+.homeBannerRightDiv {
+    width: 90%;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.freeTrialBannerDiv{ width:100%; height:230px; float:left; background:#0e9fce; }
+
+.contentPanel{ width:960px; height:auto; margin-left:auto; margin-right:auto;  }
+
+.freeTrialTitleDiv{ width:100%; height:auto; float:left; margin:10px 0px; font-size:40px; color:#fff; text-align:center;  }
+
+.freeTrialTextDiv{ width:60%; height:auto; float:left; margin:1% 20%; font-size:20px; color:#fff; text-align:center;  }
+
+.freeTrialButtonsDiv{ width:40%; margin-left:30%; margin-right:30%; margin-top:1%; float:left; min-height:50px; }
+
+.popularFeaturesTitle{ width:100%; height:auto; float:left; margin:2% 0% 2% 0%; text-align:center; background:#0e9fce; color:#fff; }
+.popularFeatureSubTitle{ font-size:16px; color:#fff; }
+
+.featuresIconsContainer{ width:960px; height:auto; float:left; }
+
+.featuresIconDiv{ width:200px; min-height:220px; float:left; margin:20px 15px; }
+
+.featureIconTitle{ width:100%; height:auto; float:left; font-size:16px; font-weight:bold; color:#505050; text-align:center; }
+
+.featureIconTxt{ width:100%; height:100px; float:left; color:#7e7e7e; font-size:15px; text-align:center; }
+
+.quickInvoicingIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-15px -8px; margin:10px 75px; }
+
+.manageBookingsIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-16px -88px; margin:10px 75px; }
+
+.fuelMonitoringIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-16px -156px; margin:10px 75px; }
+
+.trackCabIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-16px -226px; margin:10px 75px; }
+
+.driverMgmIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-392px -9px; margin:10px 75px; }
+
+.cloudServerIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-16px -355px; margin:10px 75px; }
+
+.serviceNTariffMgmIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-236px -234px; margin:10px 75px; }
+
+.salesNMktIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-392px -150px; margin:10px 75px; }
+
+.b2bMktIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-392px -81px; margin:10px 75px; }
+
+.finAcMgmIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-122px -358px; margin:10px 75px; }
+
+.roleAccessIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-16px -512px; margin:10px 75px; }
+
+.BIRIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-125px -9px; margin:10px 75px; }
+
+.fleetMaintainanceIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-123px -89px; margin:10px 75px; }
+
+.vendorMgmIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-230px -82px; margin:10px 75px; }
+
+.mobileAppIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-119px -239px; margin:10px 75px; }
+
+.cmsMgmIcon{ width:50px; height:50px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-394px -234px; margin:10px 75px; }
+
+
+.featuresBtnDiv {
+    width: auto;
+    height: 50px;
+    float: left;
+    margin: 0% 34% 2% 34%;
+}
+
+.subscribersBannerDiv{ width:100%; min-height:100px; float:left; background:#f0f0f0; }
+
+.SubscribersTitle{ width:960px; height:auto; margin-left:auto; margin-right:auto; margin-bottom:15px; text-align:center; background:#f0f0f0; color:#505050; }
+
+.subscribersLogoContainer{ width:960px; height:auto; margin-right:auto; margin-left:auto; }
+
+.subscribersLogo{ width:150px; height:50px; float:left; margin:0px 40px; }
+
+.floatRIGHT{ float:right !important; }
+
+
+/*---- -CONTAINER SECTION ENDS- ----*/
+
+
+/*---- -SIGN IN SECTION STARTS- ----*/
+
+.signInHeaderWrap{ width:100%; height:99px; line-height:99px; float:left; background:#fff; border-bottom:1px solid #d8d8d8; text-align:center; }
+.signInBodyContent{ width:100%; min-height:300px; float:left; background:#eaeaea; }
+
+.signInFooterDiv{ width:100%; height:70px; line-height:70px; float:left;  font-family: 'OpenSansRegular'; font-size:12px; color:#6c6c6c; text-align:center; margin:35px 0px 0px 0px; border-top:1px solid #d6d6d6;  }
+
+.signInFooterDiv a{ color:#6c6c6c; text-decoration:none; }
+
+.signInFooterDiv a:hover{ color:#6c6c6c; text-decoration:underline; }
+
+.signInTitleDiv{ width:100%; height:50px; line-height:50px; float:left; text-align:center; font-size:25px; color:#505050; font-family: 'ralewaysemibold';
+ font-weight:bold; margin:15px 0px 0px 0px;  }
+ 
+.signInSubTitleTxt{ width:100%; height:auto; float:left; text-align:center; font-size:15px; color:#505050; font-family: 'ralewaysemibold';
+ font-weight:bold; margin-bottom:45px;   }
+
+.signInCommonInputOuter{ width:450px; height:auto; float:left; margin:5px 0px 5px 250px;    }
+
+.signInCommonSmallInputOuter{ width:210px; height:auto; float:left; margin:5px 0px 5px 250px;    }
+
+.signInInputMarginLeft{ margin-left:30px !important; }
+
+.CommonInput{ width:100%; height:50px; line-height:50px; float:left; background:#fff; border:1px solid #bfbfbf; border-radius:4px; text-indent:12px; -webkit-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+          transition: border-color ease-in-out .15s, background ease-in-out .15s;  }
+
+.CommonInput:focus{ border:1px solid #f16f18; background:#eaeaea; -webkit-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+          transition: border-color ease-in-out .15s, background ease-in-out .15s; }
+		  
+.CommonInputSmall{ width:210px; height:50px; line-height:50px; float:left; background:#fff; margin-right:10px; border:1px solid #bfbfbf; border-radius:4px; text-indent:12px; -webkit-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+          transition: border-color ease-in-out .15s, background ease-in-out .15s;  }
+
+.CommonInputSmall:focus{ border:1px solid #f16f18; background:#eaeaea; -webkit-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+          transition: border-color ease-in-out .15s, background ease-in-out .15s; }
+		  
+.CommonTextAreaInput{ width:450px; min-height:120px; line-height:20px; float:left; background:#fff; border:1px solid #bfbfbf; border-radius:4px; text-indent:12px; -webkit-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+          transition: border-color ease-in-out .15s, background ease-in-out .15s;  }
+
+.CommonTextAreaInput:focus{ border:1px solid #f16f18; background:#eaeaea; -webkit-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+          transition: border-color ease-in-out .15s, background ease-in-out .15s; }		  
+		  
+.resendOTP{ line-height:40px; }		
+.resendOTP a{ color:#0e9fce; text-decoration:none; }		
+.resendOTP a:hover{ color:#0e9fce; text-decoration:underline; }
+
+.CommonInputLabel{ width:100%; height:auto; line-height:20px; float:left; font-family: 'OpenSansRegular'; font-size:12px; color:#6c6c6c; text-transform:uppercase; margin:12px 0px 0px 0px; }
+
+.CommonInputLabelSmall{ width:210px; height:30px; line-height:30px; float:left; font-family: 'OpenSansRegular'; font-size:12px; color:#6c6c6c; margin-right:10px; text-transform:uppercase; }
+
+.forgotPassword{ width:100%; float:left; height:40px; line-height:40px; font-family: 'OpenSansRegular'; font-size:12px; color:#6c6c6c; margin:10px 0px; padding:0px; }
+
+.forgotPassword a{ color:#6c6c6c; text-decoration:none; }
+.forgotPassword a:hover{ color:#0e9fce; text-decoration:underline; }
+
+.accountEnquiryTxt{ width:100%; height:auto; float:left; text-align:center; margin:70px 0px; font-family: 'OpenSansRegular'; font-size:12px; color:#6c6c6c; }
+
+.accountEnquiryTxt a{ color:#0e9fce; text-decoration:none; }
+.accountEnquiryTxt a:hover{ color:#0e9fce; text-decoration:underline; }
+
+.blankSpacer{ width:100%; height:150px; float:left; }
+
+.signInValidationDiv{ width:958px; height:auto; float:left; margin:0px 0px 20px 0px; background:#fff; border:1px solid #bfbfbf; font-family: 'OpenSansRegular'; }
+
+.signInValidationTitleDiv{ width:100%; height:auto; float:left;  }
+
+.signInValidationTitle{ width:auto; height:42px; line-height:42px; float:left; padding:0px 80px 0px 50px; background:#0e9fce url(../images/blue-hdr-corner.jpg) no-repeat center right; font-size:16px; color:#fff; text-align:center; text-transform:uppercase;  }
+
+.signInValidationStepTitle{ width:auto; height:42px; line-height:42px; float:right; padding:0px 50px 0px 75px; background:#2cc417 url(../images/green-hdr-corner.png) no-repeat center left; font-family:'ralewaysemibold'; font-size:16px; color:#fff; text-align:center; text-transform:uppercase; }
+
+.signInStepsContentDiv{ width:850px; height:auto; float:left; margin:20px 0px 20px 100px; }
+
+.signInStepsLabelDiv{ width:175px; height:30px; line-height:30px; float:left; color:#505050; margin:6px 0px; }
+
+.signInStepsValueDiv{ width:650px; height:30px; line-height:30px; float:left; color:#0e9fce;  margin:6px 0px; }
+
+.signInCommonContentsDiv{ width:80%; height:auto; line-height:20px; float:left; font-size:14px; color:#505050; margin:10px 0px;  }
+
+.signInCommonContentsDiv a{ color:#0e9fce; text-decoration:none; }
+
+.signInCommonContentsDiv a:hover{ color:#0e9fce; text-decoration:underline; }
+
+.signInURLAvailabilityTitle{ width:auto; height:50px; line-height:50px; float:left; font-size:16px; color:#f15a18; margin:0px 5px 0px 0px; }
+
+.urlAvailabilityInput{ width:210px; height:50px; line-height:50px; float:left; background:#fff; margin:0px; border:1px solid #bfbfbf; border-radius:4px; text-indent:12px; -webkit-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+          transition: border-color ease-in-out .15s, background ease-in-out .15s;  }
+
+.urlAvailabilityInput:focus{ border:1px solid #f16f18; background:#eaeaea; -webkit-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, background ease-in-out .15s;
+          transition: border-color ease-in-out .15s, background ease-in-out .15s; }
+
+.signInConfirmTxt{ color:#2cc417; font-size:24px; }
+
+.requestDemoTopMargin{ margin-top:20px; }
+
+/*---- -SIGN IN SECTION ENDS- ----*/
+
+/*---- -STATIC PAGE SECTION STARTS- ----*/
+
+.staticCommonBannerDiv{ width:960px; height:auto; float:left; margin-top:10px; }
+
+.staticPageTitle{ width:100%; height:auto; float:left; margin:1% 0% 0% 0%; text-align:center; background:#0e9fce; color:#fff; }
+.staticPageSubTitle{ font-size:18px; color:#fff; margin-top:-10px; }
+
+.staticContentHeading{ width:100%; height:auto; float:left;  }
+
+.staticContentDiv{ width:96%; height:auto; float:left; padding:1% 0%; }
+
+.caareersPosMenu{ width:960px; height:auto; float:left; }
+
+.caareersPosMenuOuter{  width:auto; min-height:40px; float:left;  background:#fff; border-radius:2px; margin:auto; margin-top:10px; margin-bottom:30px;  }
+
+.caareersPosMenuCommon{ min-width:150px; height:40px; line-height:40px; float:left; cursor:pointer; font-family:'ralewaysemibold'; font-size:16px; color:#0e9fce; text-align:center; border:1px solid #0e9fce; border-radius:4px;  padding:0px 20px; margin:5px;}
+
+.caareersPosMenuCommon:hover{ background:#0e9fce; border-radius:4px; color:#fff; }
+
+.careersContentDiv{ width:100%; height:auto; float:left; padding:1% 0%; border-bottom:1px dashed #eaeaea; margin-bottom:40px; }
+
+.CommonInputOuter{ width:500px; height:auto; float:left; margin:5px 0px 5px 0px;    }
+
+.commonWidth{ width:450px; }
+
+.contactUsDiv1{ width:440px; height:auto; float:left; margin:25px 20px 25px 0px;  }
+
+.contactUsDiv2{ width:440px; height:auto; float:left; margin:20px 0px 20px 0px; }
+
+.contactGenieDiv{ width:30%; height:auto; float:right; }
+
+.contactGenieFormDiv{ width:70%; height:auto; float:left; }
+
+.contactUsCompanyBlu{ color:#0e9fce; font-size:20px; }
+
+.custCareNumberDiv{ width:auto; height:38px; line-height:38px; float:left; padding:0px 40px; border-radius:10px; background:#0e9fce url(../images/sprite.png) no-repeat; background-position:-395px -352px; color:#fff; text-indent:20px; font-size:20px; }
+
+.supportMailDiv{ width:auto; height:38px; line-height:38px; float:left; padding:0px 35px; border-radius:10px; background:#f16f18 url(../images/sprite.png) no-repeat; background-position:-395px -412px; color:#fff; text-indent:20px; font-size:16px; }
+
+
+.contactUsDiv2 a{ text-decoration:none; color:#fff; }
+
+.contactUsDiv2 a:hover{ text-decoration:underline !important; color:#fff !important; }
+
+.popularFeaturesDiv{ width:100%; height:auto; float:left; margin:30px 20px 0px 0px; }
+
+.popularFeaturesHeading{ width:100%; height:auto; float:left; }
+
+.popularFeaturesTxtDiv{ width:45%; height:40px; line-height:45px; float:left; font-size:22px; color:#505050; text-indent:12px; font-weight:bold; }
+
+.featureUserMgmIcon{ width:40px; height:40px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-122px -306px; }
+
+.acNFinanceIcon{ width:40px; height:40px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-122px -364px; }
+
+.fleetMgmIcon{ width:40px; height:40px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-122px -431px; }
+
+.bookingMgmIcon{ width:40px; height:40px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-126px -505px; }
+
+.salesNMktIcon{ width:40px; height:40px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-232px -10px; }
+
+.HRMIcon{ width:40px; height:40px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-232px -84px; }
+
+.reportsIcon{ width:40px; height:40px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-236px -159px; }
+
+.tariffIcon{ width:40px; height:40px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-232px -241px; }
+
+
+.popularFeatureContentDiv{ width:50%; min-height:170px; float:left; font-size:15px; color:#989898; margin-top:10px; text-align:justify;  }
+
+.tickIcon{ width:30px; height:20px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-404px -303px; margin-right:5px; }
+
+/*---- -STATIC PAGE SECTION ENDS- ----*/
+
+/*---- -PRICING PAGE STARTS- ----*/
+
+.pricingHdrDiv{ width:100%; min-height:100px; float:left; background:#eaeaea; position:relative; }
+
+.pricingPeriodMenu{ width:960px; height:auto; margin-left:auto; margin-right:auto; }
+
+.pricingMenuOuter{  width:200px; min-height:40px;  background:#fff; border-radius:2px; margin:auto; margin-top:30px; }
+
+.pricingMenuCommon{ width:200px; height:40px; line-height:40px; float:left; cursor:pointer; font-family:'ralewaysemibold'; font-size:16px; color:#0e9fce; text-align:center; border-right:1px solid #eaeaea; text-transform:uppercase; }
+
+.pricingMenuCommon:hover{ background:#0e9fce; border-radius:2px; color:#fff; }
+
+.normalPlanStrip{ width:184px; min-height:190px; float:left; background:#fff; position:absolute; top:-70px; left:20px; z-index:1000; border:1px solid #eaeaea; border-radius:4px; }
+
+.basicPlanStrip{ width:184px; min-height:190px; float:left; background:#fff; position:absolute; top:-70px; left:203px; z-index:1000; border:1px solid #eaeaea; border-radius:4px; }
+
+.standardPlanStrip{ width:184px; min-height:210px; float:left; background:#fff; position:absolute; left:386px; top:-90px; border:1px solid #0e9fce; z-index:1000;  border-radius:4px 4px 0px 0px; box-shadow:0px 2px 6px #d6d6d6; border-bottom:0px; }
+
+.advancedPlanStrip {
+   width: 184px;
+   min-height: 190px;
+   float: left;
+   background: #fff;
+   position: absolute;
+   top: -70px;
+   left: 386px;
+   z-index: 1000;
+   border: 1px solid #eaeaea;
+   border-radius: 4px;
+}
+
+.proPlanStrip{ width:184px; min-height:220px; float:left; background:#fff; position:absolute; top:-70px; left:753px; z-index:1000; border:1px solid #eaeaea; border-radius:4px; }
+
+
+
+.pricingPlanOuterContainer {
+    width: 100%;
+    min-height: 820px;
+    float: left;
+    position: relative;
+}
+
+.pricingPlanDiv {
+    width: 600px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.planStripCommonHdr{ width:184px; height:99px; float:left; border-bottom:1px solid #eaeaea; }
+.planStripTitleDiv { width: 100%; height: 40px; line-height: 40px; float: left; margin-left: 0; border-bottom: 1px solid #eaeaea; font-size: 16px; text-align: center; text-transform: uppercase; }
+
+.planStripPriceDiv{ width:184px; height:auto; line-height:40px; float:left; font-family:'ralewaysemibold'; font-size:28px; color:#0e9fce; text-align:center; margin:5px 0px; }
+
+.planStripPriceSml{ font-size:26px; }
+
+.planSignUpMargin{ margin-left:29px; margin-top:20px; }
+
+.spclStripCommonHdr{ width:182px; height:99px; float:left; background:#0e9fce; border-bottom:1px solid #0e9fce; }
+.spclStripTitleDiv { width: 100%; height: 40px; line-height: 40px; float: left; margin-left: 0px; border-bottom: 1px solid #fff; font-size: 16px; font-weight: bold; color: #fff; text-align: center; text-transform: uppercase; }
+
+.spclStripPriceDiv{ width:184px; height:auto; line-height:40px; float:left; font-family:'ralewaysemibold'; font-size:28px; color:#fff; text-align:center; margin:5px 0px; }
+
+.spclStripPriceSml{ font-size:26px; }
+
+.FAQsTitleDiv{ width:960px; height:50px; line-height:50px; float:left; text-align:center;  }
+.FAQsSubTitleDiv{ width:960px; height:50px; line-height:50px; float:left; text-align:left; border-bottom:1px solid #eaeaea; margin-top:20px;  }
+
+.FAQsouterContainer{ width:460px; height:170px; float:left; margin:15px 20px 0px 0px; }
+
+.FAQsQuestionHeading{ width:100%; height:auto; float:left; font-size:20px; color:#505050; font-family:'ralewaysemibold';    }
+
+.FAQsQuestionContentDiv{ width:100%; height:auto; float:left; font-size:16px; color:#989898; margin-top:15px;  }
+
+.pricingQueriesBannerDiv{ width:100%; min-height:50px; float:left; background:#eaeaea; margin:50px 0px 10px 0px; }
+
+.pricingQueriesTitle{ width:960px; height:auto; margin-left:auto; margin-right:auto; margin-bottom:15px; text-align:center; background:#eaeaea; color:#505050; }
+
+.pricingQueriesContact{ width:100%; height:auto; line-height:30px; float:left; font-size:24px; text-align:center; margin-bottom:20px; }
+
+/*---- -PRICING PAGE ENDS- ----*/
+
+/*---- -POPUP CSS STARTS- ----*/
+
+.popupOuterContainer{ width:100%; height:auto; float:left; position:absolute; top:10px;}
+
+.popupContainerDiv{ width:500px; height:550px; margin-left:auto; margin-right:auto; background:#eaeaea; border:1px solid #bfbfbf; border-radius:4px; position:relative;   }
+
+.popupInputsDiv{ width:90%; height:auto; float:left; margin-left:5%; margin-right:5%; }
+
+.popupCloseBtn{ width:30px; height:30px; float:left; position:absolute; z-index:10000; top:-12px; right:-10px; background:url(../images/sprite.png) no-repeat; background-position:-244px -303px; }
+
+/*---- -POPUP CSS ENDS- ----*/
+
+/*---- -FOOTER SECTION STARTS- ----*/
+
+.footerWrapper{ width:100%; min-height:100px; float:left; background:#505050; border-top:4px solid #383838; margin-top:40px; }
+
+.footerMenuDiv{ width:960px; height:auto; margin-right:auto; margin-left:auto;  }
+
+.quickLinksBox{ width:60%; min-height:40px; float:left; margin:0px; padding:0px; list-style:none; text-align:center; }
+
+ 
+.quickLinkTitle{ width:180px; height:auto; float:left; font-size:16px; color:#fff; font-weight:bold; text-transform:uppercase; }
+
+.fbIcon{ width:22px; height:22px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-254px -362px; margin:2px 8px 0px 0px; }
+
+.fbIcon:hover{ background-position:-301px -362px; }
+
+.twitterIcon{ width:22px; height:22px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-254px -398px; margin:2px 8px 0px 0px; }
+
+.twitterIcon:hover{ background-position:-301px -398px; }
+
+.linkedInIcon{ width:22px; height:22px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-255px -435px; margin:2px 8px 0px 0px; }
+
+.linkedInIcon:hover{ background-position:-301px -435px; }
+
+.pinterestIcon{ width:22px; height:22px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-255px -475px; margin:2px 8px 0px 0px; }
+
+.pinterestIcon:hover{ background-position:-301px -475px; }
+
+.blogIcon{ width:22px; height:22px; float:left; background:url(../images/sprite.png) no-repeat; background-position:-255px -513px; margin:2px 8px 0px 0px; }
+
+.blogIcon:hover{ background-position:-302px -513px; }
+
+
+.footerLinksCommonDiv{ width:auto; height:25px; line-height:25px; float:left; margin-top:5px; padding:0px 10px; font-size:14px; color:#aaa; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; }
+
+.footerLinksCommonDiv a{ text-decoration:none; color:#aaa; }
+
+.footerLinksCommonDiv a:hover{ text-decoration:underline; color:#fff; }
+
+.footerCopyrightDiv{ width:960px; height:40px; line-height:40px; float:left; font-family: 'OpenSansRegular'; font-size:11px; color:#fff; border-top:1px solid #5c5c5c; text-transform:uppercase;}
+
+.footerCopyrightDiv a{ text-decoration:none; color:#fff; }
+.footerCopyrightDiv a:hover{ text-decoration:underline; color:#fff; }
+
+.copyrightLeft{ float:left; }
+.copyrightRight{ float:right; }
+
+.marginNone{ margin:0px !important; }
+.careerPosBtn{ float:left; margin-right:10px; }
+
+.DemoInputOuter{ width:100%; height:auto; float:left; margin:5px 0px 5px 0px;    }
+.DemoRequestWrap{ width:100%; height:auto; float:left; border-bottom:1px solid #d8d8d8; text-align:center;   }
+
+.DemoRequestFormDiv{ width:40%; height:auto; float:right; padding:0% 3% 3% 3%; background:#f0f0f0; border-radius:4px; margin-bottom:20px; }
+.DemoFeaturesHeading{ width:100%; height:auto; float:left; margin:10px 0px 20px 0px; }
+.DemoFeaturesDiv{ width:60%; height:auto; float:left; padding:1%;   }
+.DemoFeaturesTxtDiv{ width:250px; height:40px; line-height:45px; float:left; font-size:20px; color:#505050; text-indent:12px; font-weight:bold; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; }
+.DemoFeatureIconTxt{ width:70%; height:auto; float:left; color:#7e7e7e; font-size:15px; margin-right:30%;  }
+.DemoFeaturesFooterContainer{ width:100%; height:auto; float:left; border-top:1px solid #eaeaea; }
+.socialMediaDiv{ width:auto; height:38px; line-height:38px; float:left; padding:0px 10px 0px 50px; border-radius:10px; background:#25b610 url(../images/sprite.png) no-repeat; background-position:-395px -463px; color:#fff; text-indent:20px; font-size:20px; }
+.socialMarginTop{ margin-top:8px; }
+
+
+/*---- -PROFILE COMPLETION PROCESS- ----*/
+
+
+.profileCommonTitleTxt{ width:100%; height:auto; float:left; text-align:center; margin:15px 0px 0px 0px; font-size:25px; color:#505050; font-family: 'ralewaysemibold'; }
+.profileComletionMenu{ min-width:50%; min-height:20px; float:left; margin:1% 25%; }
+.profileCompletionCommonInputsDiv{ width:100%; height:auto; float:left; }
+
+.cityListIcon{ width:60px; height:60px; float:left; background:#ddd url(../images/profile-completion-sprite.png) no-repeat; background-position:-18px -12px; border-radius:40px; }
+.cityListIconActiv{ width:60px; height:60px; float:left; background:#fff url(../images/profile-completion-sprite.png) no-repeat; background-position:-79px -12px; border-radius:40px; border:1px solid #0e9fce; }
+.carListIcon{ width:60px; height:60px; float:left; background:#ddd url(../images/profile-completion-sprite.png) no-repeat; background-position:-138px -12px; border-radius:40px; }
+ 
+
+.carListIconActive{ width:60px; height:60px; float:left; background:#fff url(../images/profile-completion-sprite.png) no-repeat; background-position:-198px -12px; border:1px solid #0e9fce; border-radius:40px; }
+.servicesListIcon{ width:60px; height:60px; float:left; background:#ddd url(../images/profile-completion-sprite.png) no-repeat; background-position:-261px -13px; border-radius:40px; }
+.servicesListIconActive{ width:60px; height:60px; float:left; background:#fff url(../images/profile-completion-sprite.png) no-repeat; background-position:-319px -14px; border:1px solid #0e9fce; border-radius:40px; }
+ 
+
+.paymentListIcon{ width:60px; height:60px; float:left; background:#ddd url(../images/profile-completion-sprite.png) no-repeat; background-position:-499px -13px; border-radius:40px; }
+.paymentListIconActive{ width:60px; height:60px; float:left; background:#fff url(../images/profile-completion-sprite.png) no-repeat; background-position:-562px -14px; border:1px solid #0e9fce; border-radius:40px; }
+
+.bankListIcon{ width:60px; height:60px; float:left; background:#ddd url(../images/profile-completion-sprite.png) no-repeat; background-position:-379px -13px; border-radius:40px; }
+.bankListIconActive{ width:60px; height:60px; float:left; background:#fff url(../images/profile-completion-sprite.png) no-repeat; background-position:-440px -14px; border:1px solid #0e9fce; border-radius:40px; }
+
+.taxPanIcon{ width:60px; height:60px; float:left; background:#ddd url(../images/profile-completion-sprite.png) no-repeat; background-position:-677px -13px; border-radius:40px; }
+.taxPanIconActive{ width:60px; height:60px; float:left; background:#fff url(../images/profile-completion-sprite.png) no-repeat; background-position:-738px -14px; border:1px solid #0e9fce; border-radius:40px; }
+
+
+.profileCompletionStatusSeprator{ width:14px; height:60px; float:left; background:url(../images/profile-completion-sprite.png) no-repeat; background-position:-657px -15px; margin:0px 5px; } 
+.profileLongInputDiv{ width:320px; height:50px; padding:8px 0px; float:left; margin-right:20px; }
+.listDetailsCommonBox{ width:190px; height:38px; line-height:38px; float:left; font-size:14px; color:#505050;  margin:10px 10px 0px 0px; border:1px solid #eaeaea; border-radius:4px; padding:0px 5px; text-indent:10px; }
+.glyphicon-remove-circle{ font-size:16px; }
+.listDetailsCommonBox:hover{ border:1px solid #0e9fce; }
+.closeBtn{ width:28px; background:none; border:none; height:34px; line-height:34px; float:right; margin-top:2px; }
+.closeBtn:hover{ color:#0e9fce; }
+.stepProgressBtnDiv{ width:auto; height:auto; float:right; margin:10px; }
+.listDetailsStaticBox{ min-width:90px; height:38px; line-height:38px; float:left; font-size:14px; color:#505050;  margin:10px 10px 0px 0px; border:1px solid #eaeaea; border-radius:4px; padding:0px 14px 0px 5px; text-indent:10px; }
+.listDetailsStaticBox:hover{ border:1px solid #0e9fce; }
+
+.serviceTypeTitleDiv{ width:150px; height:40px; line-height:40px; float:left; background:#505050; margin:8px 10px 10px 5px; border-radius:4px; text-align:center; color:#fff; font-size:14px; font-weight:bold; }
+.profileMedInputDiv{ width:150px; height:50px; padding:12px 0px 0px 0px; float:left; margin-right:20px; }
+.profileCompletionCommonLabelDiv{ width:100%; height:auto; float:left; font-size:14px; color:#505050; margin:5px 0px;  }
+.profileCompletionCommonValueDiv{ width:100%; height:auto; float:left; font-size:14px; color:#0e9fce; margin:5px 0px;  }
+
+/* PRICING NEW */
+
+.planFeaturesStrip{ width:184px; min-height:190px; float:left; background:#fff; position:absolute; top:-70px; left:20px; z-index:1000; border:1px solid #eaeaea; border-radius:4px; font-family:'ralewaysemibold'; font-size:14px; color:#505050; }
+.planFeaturesStripTitle{ width:100%; height:40px; line-height:40px; float:left;  border-bottom:1px solid #eaeaea; font-size:16px; text-align:center; text-transform:uppercase; }
+.planFeaturesStripPriceTxt{ width:184px; height:auto; line-height:40px; float:left;  text-align:center; margin:5px 0px; }
+.planFeaturesTxtCommonDiv {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 13px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.planFeaturesValueTxtCommon{ width:100%; height:40px; line-height:40px; float:left;  border-bottom:1px solid #eaeaea; font-size:14px; text-align:center; }
+.planStripTopMar{ margin-top:20px; }
+ .planBtnMarginLeft {
+    margin-left: 18px;
+}
+.planFeaturesModuleTitle{ width:100%; height:30px; line-height:30px; float:left; background:#0e9fce; border-bottom:1px solid #eaeaea; font-size:13px; text-align:center; color:#fff; }
+.planFeaturesNewestStrip{ width:184px; height:auto; float:left; border-right:1px solid #eaeaea; }
+.planFeaturesNewestSpecialStrip{ width:184px; height:auto; float:left; border-right:1px solid #0e9fce; }
+
+.planFeaturesBuyNowDiv{ width:100%; height:60px; line-height:60px; float:left;  border-bottom:1px solid #eaeaea; font-size:13px; text-align:center; padding:4px 12px; }
+
+.pbNew {
+  padding: 0px !important;
+}
+
+.pgNew {
+   margin-bottom: 20px;
+   position: absolute;
+   top: 149px;
+   width: 554px margin-left: 20px;
+   left: 18px;
+}
+
+.ptNew {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #0e9fce;
+  text-transform:uppercase;
+}
+
+.phNew {
+  padding: 5px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.featureTermsMarginTop{ margin-top:100px; }
+
+.youTubeIcon{ width:22px; height:22px; float:left; background:url(../images/you-tube-bw.png) no-repeat;   margin:2px 8px 0px 0px; }
+
+.youTubeIcon:hover{ background:url(../images/you-tube-color.png) no-repeat;  }
+
+.utubeVdo{ position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0; }
+	
+.utubeVdo iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.utubeVdoBtn{ width:50%;  margin:5% 25%; height: 40px;
+line-height: 40px;
+float: left;
+cursor: pointer;
+padding: 0px 30px;
+text-transform: uppercase;
+font-family: 'ralewaysemibold';
+font-size: 16px;
+color: #fff;
+text-align: center;
+background: #25b610;
+border-radius: 2px;
+  }
+  
+  .btnOrangeNewBig {
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    cursor: pointer;
+    padding: 0px 32px !important;
+    text-transform: uppercase;
+    font-family: 'ralewaysemibold';
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background: #f15a18;
+    border-radius: 2px;
+    margin: 0px 0px 10px 0px;
+}
+.btnOrangeNewBig:hover{ background:#e55314; }
+
+.btnOrangeNewBig a:hover{ color:#fff !important; }
+
+.subscriptionBarTitle{ width:100%; height:100px; line-height:100px; float:left; margin:2% 0% 0% 0%;  background:#0e9fce; color:#fff; }
+.subscriptionTxtDiv{ width:auto; height:100px; line-height:100px; float:left; color:#fff; font-size:20px; font-weight:bold; }
+.subscriptionInputDiv {
+    width: 250px;
+    height: 50px;
+    padding: 8px 0px;
+    float: left;
+	margin:25px 8px 0px 25px;
+}
+
+.subscribeBtnOrange {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    cursor: pointer;
+    padding: 0px 35px !important;
+    text-transform: uppercase;
+    font-family: 'ralewaysemibold' !important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background: #f15a18;
+    border-radius: 2px;
+    margin: 29px 5px;
+}
+.subscribeBtnOrange:hover{ background:#e55314; }
